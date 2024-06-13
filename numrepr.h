@@ -48,7 +48,7 @@ void transparr(void *arr, int arrsize, int tsize) {
 		}
 		memcpy(&buffer[left], rval, tsize); // Replace left value with right.
 		memcpy(&buffer[right], lval, tsize); // Replace right value with left.
-		// Move the left and right pointars inward by one.
+		// Move the left and right pointers inward by one.
 		left += tsize;
 		right -= tsize;
 	}
