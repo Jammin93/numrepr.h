@@ -1,8 +1,6 @@
 #ifndef NUMREPR_NUMREPR_H
 #define NUMREPR_NUMREPR_H
 
-#endif //NUMREPR_NUMREPR_H
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -192,3 +190,5 @@ htoint(char *hexarr, int arrsize) {
 	int num = btoint(hexarr, scaled_size);
 	return num;
 }
+
+#endif //NUMREPR_NUMREPR_H
